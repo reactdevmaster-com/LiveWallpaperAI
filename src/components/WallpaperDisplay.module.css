@@ -1,0 +1,55 @@
+.display {
+  text-align: center;
+  z-index: 2;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* 
+button:hover {
+  background-color: #005bb5;
+} */
+
+.downloadButton {
+  margin-left: 10px;
+  width: 200px;
+  height: 50px;
+  background: #838285;
+  border: none;
+  cursor: pointer;
+  fill: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  text-decoration: none;
+}
+
+.downloadButton:hover {
+  background-color: #454447;
+}
+
+.downloadLink {
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 16px;
+}

@@ -1,0 +1,69 @@
+body,
+html {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background: radial-gradient(circle, #1e3a8a, #1a1a1a, #000000);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: #5220cf;
+  background: linear-gradient(to right, #5220cf 22%, #cf1512 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #76b1f1, #a06af9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+  animation: animateStar 50s linear infinite;
+}
+
+@keyframes animateStar {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.star:nth-child(odd) {
+  animation-duration: 30s;
+}
+
+.star:nth-child(even) {
+  animation-duration: 70s;
+}

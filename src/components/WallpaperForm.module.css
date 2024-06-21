@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #454447;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  width: 100vw;
+  font-size: 18px;
+  outline: none;
+  background: #454447;
+  color: #838285;
+}
+
+.iconButton {
+  margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  background: #838285;
+  border: none;
+  cursor: pointer;
+  fill: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 8px 8px 0;
+}
+
+.iconButton:hover {
+  background-color: #838285;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
